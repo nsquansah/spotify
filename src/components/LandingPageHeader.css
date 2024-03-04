@@ -1,0 +1,35 @@
+.header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 var --app-block-padding;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    gap: 15px;
+
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+.menu ul li.active a {
+    color: #D9D4DC;
+}
+
+.logo{
+    color: blue;
+
+}
