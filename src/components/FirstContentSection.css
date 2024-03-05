@@ -1,0 +1,86 @@
+.first{
+  background-color: #1D75DE;
+  width: 100%;
+  height: 250px;
+  padding: 39.5px, 150px, 39.5px, 150px;
+}
+
+.get{
+    color:#FFFFFF;
+    align-items: center;
+    font-family: Helvetica;
+    font-size: 30px;
+    max-width: 551px;
+    margin-top: 0;
+    margin-left: 500px;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+
+
+}
+
+.para{
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.btn{
+font-family: Helvetica;
+font-size: 13px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+border-radius: 25px;
+background-color: #000000;
+color: white;
+
+}
+
+.btn2{
+    width: 192.22px;
+    height: 52px;
+    padding: 16px, 34.22px, 16px, 35px;
+    border-radius: 500px;
+    border: 2px;
+    color: white;
+    background-color:#1D75DE;
+    border: 2px solid #FFFFFF;
+    
+    
+
+}
+
+.buttons{
+    width: 1,140px;
+    height: 52px;
+    /* margin-top: 221px; */
+    padding: 0px, 389.5px, 0px, 389.48px;
+    gap: 20px;
+    align-items: center;
+    margin-left: 580px;
+
+}
+
+.last{
+font-family: Helvetica;
+font-size: 11px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: center;
+width: 477px;
+height: 16px;
+margin-top: 30px;
+margin-left: -52px;
+
+
+}
