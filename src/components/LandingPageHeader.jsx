@@ -4,7 +4,7 @@ import pic1 from '../assets/images/pic1';
 export const LandingPageHeader = () => {
   return (<header className="header">
       <div className="logo">
-        <img src={pic1} alt="logo" />
+        <img src={pic1} alt="logo" className='logo1'/>
       </div>
 
   <div className='menu'>
