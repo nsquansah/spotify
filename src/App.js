@@ -1,6 +1,7 @@
 import './App.css';
 import { LandingPageHeader } from './components/LandingPageHeader';
 import { FirstContentSection } from './components/FirstContentSection';
+import {Features} from './components/Features';
 
 export function App() {
   return (
@@ -11,6 +12,9 @@ export function App() {
         <FirstContentSection /> 
     </div>
       
+      <div>
+        <Features />
+        </div>
     </div>
   );
 }

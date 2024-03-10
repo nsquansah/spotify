@@ -44,7 +44,9 @@ text-align: center;
 border-radius: 25px;
 background-color: #000000;
 color: white;
-
+width: 150px;
+top: 1051.3px;
+padding: 0px, 135px, 0px, 135px;
 }
 
 .btn2{
@@ -56,6 +58,7 @@ color: white;
     color: white;
     background-color:#1D75DE;
     border: 2px solid #FFFFFF;
+    margin-left: 5px; 
     
     
 
@@ -64,9 +67,8 @@ color: white;
 .buttons{
     width: 1,140px;
     height: 52px;
-    /* margin-top: 221px; */
     padding: 0px, 389.5px, 0px, 389.48px;
-    gap: 20px;
+    gap: 100px;
     align-items: center;
     margin-left: 580px;
 
