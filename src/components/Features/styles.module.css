@@ -1,0 +1,41 @@
+.features{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px;
+    margin: 0;
+
+   
+    
+}
+
+.features .title{
+    font-size: 39px;
+    font-weight: bold;
+
+}
+
+.features .list{
+    display: flex;
+    flex: wrap;
+}
+
+.features .list .items{
+    width: calc(285px);
+    height: 283px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.features .list .items .img{
+    width: 142px;
+    height: 142px;
+}

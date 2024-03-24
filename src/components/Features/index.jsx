@@ -2,6 +2,8 @@ import AdFreeImage from '../../assets/images/ad-free.svg';
 import Offlinemusic from '../../assets/images/offline-music.svg';
 import PlayEverywhere from '../../assets/images/play-everywhere.svg';
 import PayYourWay from '../../assets/images/pay-your-way.svg';
+import styles from './styles.module.css';
+
 
 export const Features = () => {
     const Features = [{
@@ -39,14 +41,14 @@ export const Features = () => {
     // }
     
     
-  return <section>
-    <h3>The power of Premium</h3>
+  return <section className={styles.features}>
+    <h3 className={styles.title}>The power of Premium</h3>
 
-    <div>   
+    <div className={styles.list}>   
              {Features.map((feature) => (
-        <div>
+        <div className={styles.items}>
             <img src={feature.Image} alt='adfree'/>
-            <h5>{feature.title}</h5>
+            <h5 className={styles.label}>{feature.title}</h5>
             <p>{feature.description}</p>
         </div>
     ))}

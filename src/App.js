@@ -2,6 +2,7 @@ import './App.css';
 import { LandingPageHeader } from './components/LandingPageHeader';
 import { FirstContentSection } from './components/FirstContentSection';
 import {Features} from './components/Features';
+import { Pricing } from './components/pricing/index';
 
 export function App() {
   return (
@@ -14,6 +15,7 @@ export function App() {
       
       <div>
         <Features />
+        <Pricing />
         </div>
     </div>
   );
